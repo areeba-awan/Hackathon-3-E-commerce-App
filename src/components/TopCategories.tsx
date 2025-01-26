@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { Category } from '@/types/interfaces';
 import { fetchTopCategories } from '@/sanity/lib/product/getTopCategories';
 
+
 export default async function Product() {
 
   const categories = await fetchTopCategories();
@@ -31,10 +32,10 @@ export default async function Product() {
                     <p className="text-sm opacity-70 py-1">
                       {category.productCount} products
                     </p>
-                  </div>
+                  </div>  
                 </div>   
               </Link>
-            </div>
+            </div>  
           ))}
         </div>
       </div>

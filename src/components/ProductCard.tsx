@@ -31,10 +31,9 @@ const ProductCard: React.FC<Props> = ({ product }) => {
     } else {
       document.body.style.overflow = "auto";
     }
-  }, [showPopup]);
-  
+  }, [showPopup]); 
 
-  // console.log(product); 
+console.log(product);
 
   return (
       <div>

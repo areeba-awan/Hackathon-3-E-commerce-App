@@ -13,7 +13,7 @@ const ProductGrid: React.FC<Props> = ({ products }) => {
         <p>No products available at the moment. Please check back later.</p>
       </div>
     );
-  }
+  }        
 
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">

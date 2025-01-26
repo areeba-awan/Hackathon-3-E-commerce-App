@@ -1,5 +1,5 @@
 'use client';
-
+import React from "react";
 export default function Error({ error, reset }: { error: Error; reset: () => void }) {
   return (
     <div className="text-center py-20">

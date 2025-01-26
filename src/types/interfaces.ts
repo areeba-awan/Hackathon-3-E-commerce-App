@@ -1,7 +1,6 @@
 
 export interface Product {
-    [x: string]: ReactI18NextChildren | Iterable<ReactI18NextChildren>;
-    id: Key | null | undefined;
+    
     description?: string;
     quantity: number;
     _id: string;
@@ -28,3 +27,4 @@ export interface Category {
     imageUrl: string;
     productCount: number;
 }
+
