@@ -3,8 +3,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Category } from '@/types/interfaces';
 import { fetchTopCategories } from '@/sanity/lib/product/getTopCategories';
-
-
 export default async function Product() {
 
   const categories = await fetchTopCategories();

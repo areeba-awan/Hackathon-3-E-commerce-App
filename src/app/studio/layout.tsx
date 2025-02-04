@@ -1,6 +1,6 @@
 export const metadata = {
   title: 'Admin Panel',
-  description: 'Created by Talha Shaikh',
+  description: 'Created by Areeba Awan',
 }
 
 export default function RootLayout({

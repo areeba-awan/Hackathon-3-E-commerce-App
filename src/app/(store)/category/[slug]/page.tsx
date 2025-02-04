@@ -9,8 +9,6 @@ function toTitleCase(str: string) {
   });
 }
 import { Category } from '@/types/interfaces';
-
-
 export async function generateStaticParams() {
   const categories = await client.fetch(`*[_type == "categories"]{ slug }`);
   return categories.map((category: Category) => ({
