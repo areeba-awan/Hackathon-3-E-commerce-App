@@ -28,7 +28,8 @@
 //     </div>
 //   );
 // }
-// order page
+
+// ORDER PAGE 
 import { auth } from '@clerk/nextjs/server';
 import Image from 'next/image';
 import { urlFor } from '@/sanity/lib/image'; 
